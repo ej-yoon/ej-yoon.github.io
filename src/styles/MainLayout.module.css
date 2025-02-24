@@ -1,6 +1,7 @@
 .pageLayout {
     display: inherit;
     max-width: 100%;
+    padding: 50px 20px;
 }
 
 .navbarContainer {
