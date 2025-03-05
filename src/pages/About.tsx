@@ -6,7 +6,7 @@ import Image from 'react-bootstrap/Image';
 // style
 import styles from '../styles/AboutPage.module.css';
 
-export default function AboutPage() {
+export default function About() {
     return(
         <Container fluid="lg" className={styles.aboutPageContainer}>
             <Row>
