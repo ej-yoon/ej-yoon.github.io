@@ -16,7 +16,7 @@ const careerData = [
       period: '2.5 months',
       description: [
             "- Gained practical experience in full-stack development by implementing a Student Attendance Management System",
-            "- Collaborated with a team of 3 (2 developers and 1 tester",
+            "- Collaborated with a team of 3 (2 developers and 1 tester)",
             "- Used a MERN stack, Git for version control, and Trello for project management"
         ]
     },

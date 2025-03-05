@@ -22,7 +22,7 @@ const skillData = [
             },
             {
                 name: 'CSS',
-                level: 80,
+                level: 75,
                 logo: 'src/images/css_logo.png'
             }
         ]
@@ -32,7 +32,7 @@ const skillData = [
         skills: [
             {
                 name: 'React',
-                level: 80,
+                level: 75,
                 logo: 'src/images/react_logo.png'
             },
             {
@@ -52,12 +52,12 @@ const skillData = [
         skills: [
             {
                 name: 'Node.js',
-                level: 80,
+                level: 75,
                 logo: 'src/images/node_logo.png'
             },
             {
                 name: 'Express.js',
-                level: 80,
+                level: 75,
                 logo: 'src/images/express_logo.png'
             }
         ]
@@ -122,7 +122,7 @@ const skillData = [
             },
             {
                 name: 'git',
-                level: 80,
+                level: 75,
                 logo: 'src/images/git_logo.png'
             }
         ]

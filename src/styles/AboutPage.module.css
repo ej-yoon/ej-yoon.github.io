@@ -1,0 +1,45 @@
+.aboutPageContainer {
+    min-height: 82vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profilePictureContainer {
+    margin-bottom: 20px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.descriptionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profileImageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profileImage {
+    margin: 5px;
+    width: 180px;
+}
+
+.nameAndTitle {
+    margin: 20px;
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+}
+
+.linkedIcon {
+    margin: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    gap: 15px;
+}

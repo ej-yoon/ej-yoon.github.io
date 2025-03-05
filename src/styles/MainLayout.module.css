@@ -1,9 +1,7 @@
 .pageLayout {
+    min-height: 100%;
+    max-width: 100%;
     display: inherit;
-    max-width: 100%;
-    padding: 50px 20px;
-}
-
-.navbarContainer {
-    max-width: 100%;
+    padding: 50px 50px;
+    background-color: #153147;
 }
