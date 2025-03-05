@@ -1,0 +1,25 @@
+.careerPageContainer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: start !important;
+    max-width: fit-content;
+    margin-inline: auto;
+}
+
+.columnContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.columnTitle {
+    margin-left: 30px;
+    padding-bottom: 8px;
+    color: white;
+}
+
+.skillLevel {
+    height: 7px !important;
+    --bs-progress-bar-bg: #ADB8BB !important;
+}
