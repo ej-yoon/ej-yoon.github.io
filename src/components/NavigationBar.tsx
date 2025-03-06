@@ -10,13 +10,13 @@ export default function NavigationBar() {
                   <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                       <Nav variant="underline">
                           <Nav.Item>
-                              <Nav.Link href="/about" eventKey="about" style={{color: "#153147"}}>About</Nav.Link>
+                              <Nav.Link href="#about" eventKey="about" style={{color: "#153147"}}>About</Nav.Link>
                           </Nav.Item>
                           <Nav.Item>
-                              <Nav.Link href="/work" eventKey="work" style={{color: "#153147"}}>Career</Nav.Link>
+                              <Nav.Link href="#career" eventKey="work" style={{color: "#153147"}}>Career</Nav.Link>
                           </Nav.Item>
                           <Nav.Item>
-                              <Nav.Link href="/education" eventKey="education" style={{color: "#153147"}}>Education</Nav.Link>
+                              <Nav.Link href="#education" eventKey="education" style={{color: "#153147"}}>Education</Nav.Link>
                           </Nav.Item>
                       </Nav>
                   </Navbar.Collapse>

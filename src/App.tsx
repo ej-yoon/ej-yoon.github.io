@@ -15,7 +15,7 @@ function App() {
       <Route path="/" element={<MainLayout/>}>
         <Route index element={<Navigate to="/about"/>}/>
         <Route path="about" element={<About/>}/>
-        <Route path="work" element={<Career/>}/>
+        <Route path="career" element={<Career/>}/>
         <Route path="education" element={<Education/>}/>
       </Route>
     </Routes>
