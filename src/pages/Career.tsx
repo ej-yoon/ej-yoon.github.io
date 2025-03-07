@@ -46,7 +46,7 @@ export default function WorkPage() {
                     {skillData.map((data, idx) => (
                         <Row key={idx} className={componentStyles.cardsAnimation}>
                             <Col className={styles.columnContainer}>
-                                <Card style={{ width: '25rem' }} className="mb-4">
+                                <Card style={{ maxWidth: '25rem' }} className="mb-4">
                                     <Card.Body>
                                         <Card.Header>{data.category}</Card.Header>
                                         {data.skills.map((skill) => (
