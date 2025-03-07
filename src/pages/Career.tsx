@@ -12,6 +12,8 @@ import careerData from '../data/careerData';
 import skillData from '../data/skillData';
 
 export default function WorkPage() {
+    const imagePath = import.meta.env.VITE_IMG_PATH;
+
     return(
         <Container fluid="lg" className={styles.careerPageContainer}>
             <Row className="justify-content-md-center">
@@ -50,7 +52,7 @@ export default function WorkPage() {
                                         {data.skills.map((skill) => (
                                             <>
                                             <div className={componentStyles.titleWithIconBox}>
-                                                <Image src={skill.logo} roundedCircle className={componentStyles.smallIconImage}/>
+                                                <Image src={`${imagePath}${skill.logo}`} roundedCircle className={componentStyles.smallIconImage}/>
                                                 <Card.Text>{skill.name}</Card.Text>
                                             </div>
                                             <ProgressBar now={skill.level} max={100} className={styles.skillLevel}/>
