@@ -7,13 +7,15 @@ import Image from 'react-bootstrap/Image';
 import styles from '../styles/AboutPage.module.css';
 
 export default function About() {
+    const imagePath = import.meta.env.VITE_IMG_PATH;
+    
     return(
         <Container fluid="lg" className={styles.aboutPageContainer}>
             <Row>
                 <Col xl={4} className={styles.profilePictureContainer}>
                     <Row>
                         <div className={styles.profileImageContainer}>
-                            <Image src="src/images/profile_picture.png" className={styles.profileImage}/>
+                            <Image src={`${imagePath}/profile_picture.png`} className={styles.profileImage}/>
                         </div>
                     </Row>
                     <Row>

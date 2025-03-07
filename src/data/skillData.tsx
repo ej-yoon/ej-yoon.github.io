@@ -18,12 +18,12 @@ const skillData = [
             {
                 name: 'HTML',
                 level: 90,
-                logo: 'src/images/html_logo.png'
+                logo: '/html_logo.png'
             },
             {
                 name: 'CSS',
                 level: 75,
-                logo: 'src/images/css_logo.png'
+                logo: '/css_logo.png'
             }
         ]
     },
@@ -33,17 +33,17 @@ const skillData = [
             {
                 name: 'React',
                 level: 75,
-                logo: 'src/images/react_logo.png'
+                logo: '/react_logo.png'
             },
             {
                 name: 'jQuery',
                 level: 90,
-                logo: 'src/images/jquery_logo.png'
+                logo: '/jquery_logo.png'
             },
             {
                 name: 'AJAX',
                 level: 90,
-                logo: 'src/images/ajax_logo.png'
+                logo: '/ajax_logo.png'
             }
         ]
     },
@@ -53,12 +53,12 @@ const skillData = [
             {
                 name: 'Node.js',
                 level: 75,
-                logo: 'src/images/node_logo.png'
+                logo: '/node_logo.png'
             },
             {
                 name: 'Express.js',
                 level: 75,
-                logo: 'src/images/express_logo.png'
+                logo: '/express_logo.png'
             }
         ]
     },
@@ -68,17 +68,17 @@ const skillData = [
             {
                 name: 'JavaScript',
                 level: 90,
-                logo: 'src/images/js_logo.png'
+                logo: '/js_logo.png'
             },
             {
                 name: 'TypeScript',
                 level: 60,
-                logo: 'src/images/typescript_logo.png'
+                logo: '/typescript_logo.png'
             },
             {
                 name: 'Java',
                 level: 90,
-                logo: 'src/images/java_logo.png'
+                logo: '/java_logo.png'
             }
         ]
     },
@@ -88,7 +88,7 @@ const skillData = [
             {
                 name: 'Spring',
                 level: 90,
-                logo: 'src/images/spring_logo.png'
+                logo: '/spring_logo.png'
             }
         ]
     },
@@ -98,17 +98,17 @@ const skillData = [
             {
                 name: 'Oracle',
                 level: 90,
-                logo: 'src/images/oracle_logo.png'
+                logo: '/oracle_logo.png'
             },
             {
                 name: 'Spring iBatis',
                 level: 90,
-                logo: 'src/images/spring_logo.png'
+                logo: '/spring_logo.png'
             },
             {
                 name: 'MongoDB',
                 level: 80,
-                logo: 'src/images/mongodb_logo.png'
+                logo: '/mongodb_logo.png'
             }
         ]
     },
@@ -118,12 +118,12 @@ const skillData = [
             {
                 name: 'SVN',
                 level: 90,
-                logo: 'src/images/svn_logo.png'
+                logo: '/svn_logo.png'
             },
             {
                 name: 'git',
                 level: 75,
-                logo: 'src/images/git_logo.png'
+                logo: '/git_logo.png'
             }
         ]
     }

@@ -10,6 +10,8 @@ import componentStyles from '../styles/PageComponent.module.css';
 import educationData from '../data/educationData';
 
 export default function EducationPage() {
+    const imagePath = import.meta.env.VITE_IMG_PATH;
+
     return(
         <Container fluid="lg" className={styles.educationPageContainer}>
             {educationData.map((data, idx) => (
@@ -19,7 +21,7 @@ export default function EducationPage() {
                             <Card.Body>
                                 <Card.Title>{data.title}</Card.Title>
                                 <div className={componentStyles.titleWithIconBox}>
-                                    <Image src={data.logo} roundedCircle className={componentStyles.smallIconImage}/>
+                                    <Image src={`${imagePath}${data.logo}`} roundedCircle className={componentStyles.smallIconImage}/>
                                     <Card.Subtitle className="text-muted">{data.school} ({data.location})</Card.Subtitle>
                                 </div>
                                 <Card.Text>{data.description}</Card.Text>
