@@ -1,0 +1,111 @@
+.aboutSectionContainer {
+    padding: 50px 50px;
+    min-height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profilePictureContainer {
+    margin-bottom: 20px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.descriptionContainer {
+    margin: 0px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profileImageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profileImage {
+    margin: 5px;
+    width: 180px;
+}
+
+.nameAndTitle {
+    margin: 20px;
+    font-size: 50px;
+    font-weight: 500;
+    max-width: inherit;
+    justify-content: left !important;
+    align-items: left !important;
+    color: white;
+}
+
+.linkedIcon {
+    margin: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    gap: 20px;
+}
+
+.icons {
+    color: white;
+}
+
+.icons:hover {
+    color: #F5751D;
+    transition: transform 0.3s;
+    transform: scale3d(1.3, 1.3, 1);
+}
+
+.careerSectionContainer {
+    padding: 50px 50px;
+    align-items: start !important;
+    max-width: fit-content;
+    margin-inline: auto;
+}
+
+.columnContainer {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.columnTitle {
+    margin-left: 30px;
+    padding-bottom: 8px;
+    color: white;
+}
+
+.titleWithIconBox {
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.smallIconImage {
+    margin: 5px 5px 5px 2px;
+    width: 25px;
+    height: 25px;
+}
+
+.educationSectionContainer {
+    padding: 50px 50px;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigationLinks {
+    color: #153147 !important;
+}
+
+.navigationLinks:hover {
+    color: #F5751D !important;
+}

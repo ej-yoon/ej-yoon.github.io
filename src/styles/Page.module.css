@@ -1,14 +1,8 @@
-.titleWithIconBox {
-    display: flex;
-    flex-direction: row;
-    vertical-align: middle;
-    align-items: center;
-}
-
-.smallIconImage {
-    margin: 5px 5px 5px 2px;
-    width: 25px;
-    height: 25px;
+.pageLayout {
+  min-height: 100%;
+  max-width: 100%;
+  display: inherit;
+  background-color: #153147;
 }
 
 @keyframes appear {

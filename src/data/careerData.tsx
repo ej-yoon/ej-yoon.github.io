@@ -15,10 +15,10 @@ const careerData = [
       location: 'Auckland, New Zealand',
       period: '2.5 months',
       description: [
-            "- Gained practical experience in full-stack development by implementing a Student Attendance Management System",
-            "- Collaborated with a team of 3 (2 developers and 1 tester)",
-            "- Used a MERN stack, Git for version control, and Trello for project management"
-        ]
+        "- Gained practical experience in full-stack development by implementing a Student Attendance Management System",
+        "- Collaborated with a team of 3 (2 developers and 1 tester)",
+        "- Used a MERN stack, Git for version control, and Trello for project management"
+     ]
     },
     {
         title: 'Front-end Software Developer',
@@ -26,7 +26,8 @@ const careerData = [
         location: 'Seoul, South Korea',
         period: '3 months',
         description: [
-            "Developed front-end of an ERP system for a university information system using Javascript library"
+            "- Developed front-end of an ERP system for university information systems",
+            "- Mainly used JavaScript based on a particular JavaScript framework (Nexacro)"
         ]
     },
     {
@@ -36,12 +37,8 @@ const careerData = [
         period: '2.5 years',
         description: [
             "- Implemented e-commerce platforms for major companies in Korea",
-            "- Participated in five projects", "- Eland Integration shopping mall",
-            "- Samsung Everland Wellstory Online & Mobile shopping mall",
-            "- LG U+ ‘Video shopping’ Mobile shopping mall",
-            "- D&Shop Online & Mobile Shopping Mall",
-            "- GS SHOP X Malaysia for Online home shopping mall",
-            "- Manual unit test, integration test",
+            `- Participated in five projects:\n  - Eland Integration shopping mall\n  - Samsung Everland Wellstory Online & Mobile shopping mall\n  - LG U+ ‘Video shopping’ Mobile shopping mall\n  - D&Shop Online & Mobile Shopping Mall\n  - GS SHOP X Malaysia for Online home shopping mall`,
+            "- Manual unit test and integration test",
             "- Documentation for system manual",
             "- Used web technologies, Java based on Spring framework, Oracle for database, and SVN for version control"
         ]
