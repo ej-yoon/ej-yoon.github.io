@@ -8,17 +8,17 @@ import Education from '../sections/Education'
 import styles from '../styles/Page.module.css';
 
 export default function MainLayout() {
-    const about = useRef<HTMLInputElement | null>(null);
-    const career = useRef<HTMLInputElement | null>(null);
-    const education = useRef<HTMLInputElement | null>(null);
+    const refAbout = useRef<HTMLInputElement | null>(null);
+    const refCareer = useRef<HTMLInputElement | null>(null);
+    const refEducation = useRef<HTMLInputElement | null>(null);
 
     return (
       <>
-        <NavigationBar aboutSectionRef={about} careerSectionRef={career} educationSectionRef={education} />
+        <NavigationBar aboutSectionRef={refAbout} careerSectionRef={refCareer} educationSectionRef={refEducation} />
         <div className={styles.pageLayout}>
-          <About refProps={about}/>
-          <Career refProps={career}/>
-          <Education refProps={education}/>
+          <About refProps={refAbout}/>
+          <Career refProps={refCareer}/>
+          <Education refProps={refEducation}/>
         </div>
       </>
     );
