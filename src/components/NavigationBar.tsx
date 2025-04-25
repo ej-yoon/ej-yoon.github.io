@@ -1,3 +1,4 @@
+import { useRef } from 'react';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -12,7 +13,8 @@ type Props = {
 };
 
 export default function NavigationBar({ aboutSectionRef, careerSectionRef, educationSectionRef }: Props) {
-    
+    const refNavbar = useRef<HTMLInputElement | null>(null);
+
     const handleSelect = (eventKey: any) => {
         let reference: any = aboutSectionRef;
 
@@ -24,14 +26,18 @@ export default function NavigationBar({ aboutSectionRef, careerSectionRef, educa
             reference = educationSectionRef;
         }
 
+        const rect = reference.current.getBoundingClientRect();
+        const offset = rect.top + window.scrollY;
+        const navbarHeight = refNavbar.current != null ? refNavbar.current.offsetHeight : 0;
+
         window.scrollTo({
-            top: reference.current.offsetTop,
+            top: offset - navbarHeight,
             behavior: "smooth"
         });
     };
 
     return (
-        <Navbar collapseOnSelect expand="sm" sticky="top" className="navbar bg-body-tertiary">
+        <Navbar collapseOnSelect expand="sm" sticky="top" className="navbar bg-body-tertiary" ref={refNavbar}>
             <Container>
                   <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                   <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
